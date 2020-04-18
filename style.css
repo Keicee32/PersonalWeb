@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid coral; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid coral;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+#contact h2{
+    margin-right: 300px;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.75)), url('img/art-artistic.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('img/bg-img.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('img/white-paper.jpg');
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid coral;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+input{
+    height: 45px;
+    color: black;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 30px;
+    margin-top: 18px;
+}
+form .submit{
+    cursor: pointer;
+}
